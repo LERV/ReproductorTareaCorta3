@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 
 public class MainActivity extends AppCompatActivity {
     MediaPlayer mediaPlayer;
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         mediaPlayer = MediaPlayer.create(getApplicationContext(),canciones[0]);
+
+        ArrayAdapter<String>
 
     }
 
