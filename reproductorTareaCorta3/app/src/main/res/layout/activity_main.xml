@@ -42,6 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textAllCaps="false"
                 android:text="Ant" />
 
             <Button
@@ -50,6 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="clickPlay"
+                android:textAllCaps="false"
                 android:text="Play" />
 
             <Button
@@ -58,6 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="clickPause"
+                android:textAllCaps="false"
                 android:text="Pause" />
 
             <Button
@@ -65,7 +68,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Sig" />
+                android:onClick="clickSig"
+                android:text="Sig"
+                android:textAllCaps="false" />
         </LinearLayout>
 
     </RelativeLayout>
